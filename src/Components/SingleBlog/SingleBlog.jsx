@@ -1,3 +1,5 @@
+import {   faBookmark} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react';
 import './SingleBlog.css'
 
@@ -15,9 +17,9 @@ const SingleBlog = ({blog}) => {
                                 <p>Release :{blog.release}</p>
                          </div>
                   </div>
-                <div className='d-flex'>
+                <div className='d-flex align-items-center'>
                         <small>{blog.readTime} min read</small>
-                        <button>book</button>
+                 <p className='m-3'><FontAwesomeIcon icon={faBookmark} /></p>
                 </div>
          </div>
                 <h4>{blog.title}</h4>
