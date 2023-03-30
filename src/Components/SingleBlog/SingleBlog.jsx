@@ -6,7 +6,7 @@ import './SingleBlog.css'
 const SingleBlog = ({blog}) => {
         console.log(blog)
         return (
-                <div className='single container card m-2'>
+                <div className='single container  mb-5'>
                       
                         <img className='w-100 mt-2' src={blog.img} alt="" />
         <div className="author-info d-flex justify-content-between align-items-center">
@@ -23,9 +23,9 @@ const SingleBlog = ({blog}) => {
                 </div>
          </div>
                 <h4>{blog.title}</h4>
-                <br />
-                <small>#beginers #programmer</small>
-                <a className='mb-3' href="/dom">Mark as read</a>
+               
+                <small>#beginers #programmer</small> <br />
+                <a className='' href="/dom">Mark as read</a>
 
                         
                 </div>
