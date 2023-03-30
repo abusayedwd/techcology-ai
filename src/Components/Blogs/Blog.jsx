@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import SingleBlog from '../SingleBlog/SingleBlog';
 
 const Blog = () => {
+        const [blogs, setBlogs] = useState([])
+        useEffect(()=> {
+                fetch("Fakedata.json")
+                .then(res => res.json())
+                .then(data =>  setBlogs(data))
+        },[])
         return (
-                <div>
-                        <h1>vlog create hee</h1>
+                <div className=''>
+                     {
+                        blogs.map(blog => 
+                            <SingleBlog
+                            blog = {blog}
+                            ></SingleBlog>
+                                 
+                        )
+                     }   
                 </div>
         );
 };

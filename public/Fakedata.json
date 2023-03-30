@@ -1,0 +1,43 @@
+[
+        {
+          "name": " Larry Page",
+          "id": 1,
+          "readTime":5,
+          "release": "September 4, 1998",
+          "title": "Google LLC is an American multinational technology company.",
+          "img": "https://images.unsplash.com/photo-1529612700005-e35377bf1415?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+          "author": " https://images.unsplash.com/photo-1580128637411-80206ae868e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=452&q=80"
+        },
+        {
+          "name": " Jordan Walke",
+          "id": 2,
+          "readTime":4,
+          "release": "May 29, 2013",
+          "title": "React is a free and open-source front-end JavaScript library ",
+          "img": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+          "author": " https://images.unsplash.com/photo-1580128637411-80206ae868e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=452&q=80"
+        },
+        {
+          "name": "Tom Preston",
+          "id": 3,
+          "readTime":9,
+          "release": "February 8, 2008",
+          "title": " Internet hosting service for software development",
+          "img": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=888&q=80",
+          "author": " https://images.unsplash.com/photo-1580128637411-80206ae868e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=452&q=80"
+        },
+        {
+          "name": "Bill gates",
+          "id": 4,
+          "readTime":7,
+          "release": "2022 Update l Version 22H2)",
+          "title": "There are 3 options below for installing or creating Windows 11 media",
+          "img": "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+          "author": "https://images.unsplash.com/photo-1580128637411-80206ae868e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=452&q=80"
+           
+        }
+]
+           
+           
+         
+      
