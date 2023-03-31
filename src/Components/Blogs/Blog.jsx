@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Question from '../Questions/Question';
 import SideCart from '../Sidecart/SideCart';
 import SingleBlog from '../SingleBlog/SingleBlog';
  
@@ -35,14 +36,14 @@ const Blog = () => {
     
           </div>
    
-          <div className="cart-container setP col-md-4 col-sm-12">
+          <div className="cart-container h-100 setP col-md-4 col-sm-12">
      
     <SideCart time = {Time}></SideCart>
         </div>
 </div>
 
 
-                      
+           <Question></Question>           
                 </div>
         );
 };
