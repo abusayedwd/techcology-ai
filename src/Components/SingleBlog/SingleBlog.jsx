@@ -1,13 +1,18 @@
 import {   faBookmark} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react';
+import SpenTime from '../SpenTime/SpenTime';
 import './SingleBlog.css'
 
-const SingleBlog = ({blog}) => {
-        console.log(blog)
+const SingleBlog = ({blog,}) => {
+        // console.log(handleTime)
+        const handleTime = () => {
+                console.log('helloo')
+        }
         return (
                 <div className='single container  mb-5'>
-                      
+                            
+              
                         <img className='w-100 mt-2' src={blog.img} alt="" />
         <div className="author-info d-flex justify-content-between align-items-center">
                   <div className="author-name d-flex mt-3">
@@ -25,7 +30,7 @@ const SingleBlog = ({blog}) => {
                 <h4>{blog.title}</h4>
                
                 <small>#beginers #programmer</small> <br />
-                <a className='' href="/dom">Mark as read</a>
+                 <p onClick={handleTime} className='text-primary border-bottom'>Mark as read</p>
 
                         
                 </div>

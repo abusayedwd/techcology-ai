@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SingleBlog from '../SingleBlog/SingleBlog';
+import SpenTime from '../SpenTime/SpenTime';
 
 const Blog = () => {
         const [blogs, setBlogs] = useState([])
@@ -14,7 +15,9 @@ const Blog = () => {
                         blogs.map(blog => 
                             <SingleBlog
                             blog = {blog}
+                            key = {blog.id}
                             ></SingleBlog>
+                 
                                  
                         )
                      }   

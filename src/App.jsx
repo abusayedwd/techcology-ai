@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Blog from './Components/Blogs/Blog'
 import Header from './Components/Header/Header'
+import SpenTime from './Components/SpenTime/SpenTime'
+import SideCart from './Components/Sidecart/SideCart'
 
 function App() {
   
@@ -20,8 +22,9 @@ function App() {
     
    </div>
    
-   <div className="cart-container col-md-4 col-sm-12">
-   <h3>hello blog</h3>
+   <div className="cart-container setp col-md-4 col-sm-12">
+     
+    <SideCart></SideCart>
    </div>
    </div>
    
