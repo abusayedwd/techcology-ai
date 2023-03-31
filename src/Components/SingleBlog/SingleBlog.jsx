@@ -1,14 +1,13 @@
 import {   faBookmark} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react';
-import SpenTime from '../SpenTime/SpenTime';
+ 
 import './SingleBlog.css'
 
-const SingleBlog = ({blog,}) => {
+const SingleBlog = ({blog,handleTime}) => {
         // console.log(handleTime)
-        const handleTime = () => {
-                console.log('helloo')
-        }
+        const handleTimeAdd = handleTime;
+        
         return (
                 <div className='single container  mb-5'>
                             
@@ -30,7 +29,7 @@ const SingleBlog = ({blog,}) => {
                 <h4>{blog.title}</h4>
                
                 <small>#beginers #programmer</small> <br />
-                 <p onClick={handleTime} className='text-primary border-bottom'>Mark as read</p>
+                 <p onClick={()=> handleTimeAdd(blog.readTime)} className='text-primary border-bottom'>Mark as read</p>
 
                         
                 </div>
