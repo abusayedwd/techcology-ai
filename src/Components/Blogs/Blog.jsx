@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Question from '../Questions/Question';
 import SideCart from '../Sidecart/SideCart';
+import { ToastContainer, toast } from 'react-toastify';
 import SingleBlog from '../SingleBlog/SingleBlog';
  
 
@@ -19,11 +20,18 @@ const Blog = () => {
                 // console.log(Time)
         }
         const handleBookmark = (bookMark) => {
-                // console.log(bookMark)
-                const newBookMarks = [...BookMarks, bookMark]
-                setBookmarks(newBookMarks)
+                if(BookMarks.includes(bookMark)){
+                        toast("Already bookmarked!!");
+                        
+                }
+                else{
+                        
+                        const newBookMarks = [...BookMarks, bookMark]
+                        setBookmarks(newBookMarks);
+                }
                 // console.log(BookMarks)
         }
+         
         return (
                 <div className=''>
 
@@ -50,6 +58,17 @@ const Blog = () => {
     blogs = {BookMarks}
     length = {BookMarks.length}
     ></SideCart>
+    <ToastContainer
+          position="top-right" 
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="dark"/>
         </div>
 </div>
 
