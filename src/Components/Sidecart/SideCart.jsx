@@ -28,7 +28,7 @@ const SideCart = ( props) => {
                        <h6 className=' p-2'>{props.blogs[9]} <br /></h6>
                        <h6 className=' p-2'>{props.blogs[10]}<br /></h6>
                        <h6 className=' p-2'>{props.blogs[11]}<br /></h6>
-                h6
+               
                        
 
                 </div>
