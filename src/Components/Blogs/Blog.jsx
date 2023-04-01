@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Question from '../Questions/Question';
 import SideCart from '../Sidecart/SideCart';
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import SingleBlog from '../SingleBlog/SingleBlog';
  
 
