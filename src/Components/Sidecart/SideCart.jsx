@@ -13,21 +13,21 @@ const SideCart = ( props) => {
                         </div>
                 <div className=' bg-info mt-3'>
                        <h4 className='text-center'>Bookmarked Blogs : {props.length}</h4>
-                       <h6 className=' p-2'>{props.blogs[0]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[1]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[2]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[3]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[4]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[5]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[6]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[7]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[8]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[9]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[10]}<br /></h6>
-                       <h6 className=' p-2'>{props.blogs[11]}<br /></h6>
-                       <h6 className=' p-2'>{props.blogs[9]} <br /></h6>
-                       <h6 className=' p-2'>{props.blogs[10]}<br /></h6>
-                       <h6 className=' p-2'>{props.blogs[11]}<br /></h6>
+                       <h5 className=' p-2'>{props.blogs[0]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[1]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[2]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[3]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[4]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[5]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[6]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[7]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[8]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[9]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[10]}<br /></h5>
+                       <h5 className=' p-2'>{props.blogs[11]}<br /></h5>
+                       <h5 className=' p-2'>{props.blogs[9]} <br /></h5>
+                       <h5 className=' p-2'>{props.blogs[10]}<br /></h5>
+                       <h5 className=' p-2'>{props.blogs[11]}<br /></h5>
                
                        
 
