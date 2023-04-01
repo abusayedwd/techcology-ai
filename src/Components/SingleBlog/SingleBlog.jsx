@@ -1,12 +1,14 @@
-import {   faBookmark} from '@fortawesome/free-solid-svg-icons';
+import { faBookmark} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react';
  
 import './SingleBlog.css'
 
-const SingleBlog = ({blog,handleTime}) => {
+const SingleBlog = ({blog,handleTime,handleBookmark}) => {
         // console.log(handleTime)
         const handleTimeAdd = handleTime;
+        const handleBookmarkAdd = handleBookmark;
+         
         
         return (
                 <div className='single container  mb-5'>
@@ -23,7 +25,7 @@ const SingleBlog = ({blog,handleTime}) => {
                   </div>
                 <div className='d-flex align-items-center'>
                         <small>{blog.readTime} min read</small>
-                 <p className='m-3'><FontAwesomeIcon icon={faBookmark} /></p>
+                 <p onClick={()=> handleBookmarkAdd(blog.title)} className='m-3'><FontAwesomeIcon icon={faBookmark} /></p>
                 </div>
          </div>
                 <h4>{blog.title}</h4>

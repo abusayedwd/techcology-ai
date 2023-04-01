@@ -7,6 +7,7 @@ import SingleBlog from '../SingleBlog/SingleBlog';
 const Blog = () => {
         const [blogs, setBlogs] = useState([])
         const [Time, setTime] = useState(0)
+        const [ BookMarks, setBookmarks] = useState([])
         useEffect(()=> {
                 fetch("Fakedata.json")
                 .then(res => res.json())
@@ -16,6 +17,12 @@ const Blog = () => {
                 const Timee = Time + time;
               setTime(Timee)
                 // console.log(Time)
+        }
+        const handleBookmark = (bookMark) => {
+                // console.log(bookMark)
+                const newBookMarks = [...BookMarks, bookMark]
+                setBookmarks(newBookMarks)
+                // console.log(BookMarks)
         }
         return (
                 <div className=''>
@@ -27,6 +34,7 @@ const Blog = () => {
                         blogs.map(blog => 
                             <SingleBlog
                             blog = {blog}
+                            handleBookmark ={handleBookmark}
                             key = {blog.id}
                             handleTime = {handleTime}
                             ></SingleBlog>,
@@ -38,7 +46,10 @@ const Blog = () => {
    
           <div className="cart-container h-100 setP col-md-4 col-sm-12">
      
-    <SideCart time = {Time}></SideCart>
+    <SideCart time = {Time}
+    blogs = {BookMarks}
+    length = {BookMarks.length}
+    ></SideCart>
         </div>
 </div>
 

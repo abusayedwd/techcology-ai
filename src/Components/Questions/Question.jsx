@@ -2,7 +2,7 @@ import React from 'react';
 
 const Question = () => {
         return (
-                <div className='bg-warning p-5 mt-5'>
+                <div className='bg-light p-5 mt-5'>
                         <h3>Question-1: What are the difference between props and state?</h3>
                         <h5 className='mb-3'>Answer: The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component</h5>
 
