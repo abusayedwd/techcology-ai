@@ -18,7 +18,7 @@ const Blog = () => {
         const handleTime = ( time) => {
                 const Timee = Time + time;
               setTime(Timee)
-                // console.log(Time)
+             
         }
         const handleBookmark = (bookMark) => {
                 if(BookMarks.includes(bookMark)){

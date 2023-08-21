@@ -1,10 +1,7 @@
 import React from 'react';
  
 const SideCart = ( props) => {
-         console.log(props.length)
-        // const bookMark = props.BookMarks;
-        // console.log(bookMark)
-
+         console.log(props.length) 
          
         return (
      <div className='setP'>

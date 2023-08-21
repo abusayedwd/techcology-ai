@@ -5,7 +5,6 @@ import React from 'react';
 import './SingleBlog.css'
 
 const SingleBlog = ({blog,handleTime,handleBookmark}) => {
-        // console.log(handleTime)
         const handleTimeAdd = handleTime;
         const handleBookmarkAdd = handleBookmark;
          
