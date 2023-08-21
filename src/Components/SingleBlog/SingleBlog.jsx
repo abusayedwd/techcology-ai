@@ -10,8 +10,7 @@ const SingleBlog = ({blog,handleTime,handleBookmark}) => {
          
         
         return (
-                <div className='single container  mb-5'>
-                            
+                <div className='single container  mb-5'> 
               
                         <img className='w-100 mt-2' src={blog.img} alt="" />
         <div className="author-info d-flex justify-content-between align-items-center">
@@ -27,12 +26,10 @@ const SingleBlog = ({blog,handleTime,handleBookmark}) => {
                  <p onClick={()=> handleBookmarkAdd(blog.title)} className='m-3'><FontAwesomeIcon icon={faBookmark} /></p>
                 </div>
          </div>
-                <h4>{blog.title}</h4>
-               
+                <h4>{blog.title}</h4> 
                 <small>#beginers #programmer</small> <br />
                  <p onClick={()=> handleTimeAdd(blog.readTime)} className='text-primary border-bottom'>Mark as read</p>
 
-                        
                 </div>
         );
 };
